@@ -6,7 +6,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+title = "Benjamin Goudey"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -44,6 +44,7 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
   publication_types = "/publication-type/:slug/"
+  
 
 [outputs]
   home = ["HTML", "RSS", "JSON", "WebAppManifest", "headers", "redirects"]
